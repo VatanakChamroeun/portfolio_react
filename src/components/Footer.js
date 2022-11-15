@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Footer = () => {
   const year = new Date().getFullYear()
-  return <StyledContainer> &copy; Copyright {year}, Sopanha Kok</StyledContainer>
+  return <StyledContainer> &copy; Copyright {year}, Vatanak Chamroeun</StyledContainer>
 }
 
 const StyledContainer = styled.div`

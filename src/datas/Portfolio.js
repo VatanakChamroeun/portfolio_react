@@ -2,7 +2,7 @@ export const portfolioDatas = [
   {
     title: 'Cambodia Geography',
     content:
-      'Create a mobile application with 5 teammates of school project for people to find Cambodia geography and place information faster.',
+      'Cambodia Geography is a cross-platform mobile app which is used to explore tour places, restuarants and geography in Cambodia. I contributed with 4 other friends and I worked on developing mobile UI and integrating app to API.',
     technologyImages: [
       'https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white',
       'https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white',
@@ -17,7 +17,7 @@ export const portfolioDatas = [
         title: 'GitHub',
       },
       {
-        src: 'http://camgeo.juniorise.com',
+        src: 'https://camgeo.juniorise.com/',
         title: 'Website',
       },
     ],
@@ -29,11 +29,11 @@ export const portfolioDatas = [
   {
     title: 'Quote App',
     content:
-      'Create a mobile application with 3 teammates of school final exam. The application is for people who want to upload and read quotes.',
+      'Quote App allows user to upload their favorite quote or compose their own quote. I contributed in this project with other 2 friends and I worked on log in and sign up screen.',
     technologyImages: [
       'https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white',
       'https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white',
-      'https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white',
+      'https://img.shields.io/badge/Php-787CB5?style=for-the-badge&logo=php&logoColor=white',
       'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
     ],
     links: [
@@ -46,65 +46,5 @@ export const portfolioDatas = [
       'https://thea.juniorise.com/assets/portfolios/quote-app/home.png',
       'https://thea.juniorise.com/assets/portfolios/quote-app/login.png',
     ],
-  },
-  {
-    title: 'Juniorise Web',
-    content:
-      'Create a website with 3 teammates of school project for junior in order to gather information about university using Laravel',
-    technologyImages: [
-      'https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white',
-      'https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white',
-    ],
-    links: [
-      {
-        src: 'https://github.com/niptict-g6/juniorise',
-        title: 'GitHub',
-      },
-      {
-        src: 'http://juniorise.herokuapp.com/',
-        title: 'Website',
-      },
-    ],
-    projectImages: [
-      'https://res.cloudinary.com/khaysing/image/upload/v1631976752/photo%20gallery/nsobmskj6zwhhxzjn1wh.png',
-    ],
-  },
-  {
-    title: 'Photo Gallery',
-    content: 'A website use for upload images ',
-    technologyImages: [
-      'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
-      'https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white',
-      'https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white',
-      'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
-    ],
-    links: [
-      {
-        src: 'https://photo-gallery-mern.herokuapp.com/',
-        title: 'Website',
-      },
-    ],
-    projectImages: [],
-  },
-  {
-    title: 'React Authentication',
-    content: 'Authentication using JWT web token',
-    technologyImages: [
-      'https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB',
-      'https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white',
-      'https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white',
-      'https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white',
-    ],
-    links: [
-      {
-        src: 'https://github.com/SopanhaKok/Authentication_JWT_REACT',
-        title: 'Github',
-      },
-      {
-        src: 'https://react-jwt-authentication.herokuapp.com/',
-        title: 'Website',
-      },
-    ],
-    projectImages: [],
   },
 ]
