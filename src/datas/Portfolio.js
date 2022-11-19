@@ -1,5 +1,32 @@
 export const portfolioDatas = [
   {
+    title: 'Disease Symptom Prediction',
+    content:
+      'Disease Symptom Prediction is a machine learing model which predicts patient\'s disease according to their symptoms.',
+    technologyImages: [
+      'https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white',
+      'https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white',
+      'https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white',
+      'https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white',
+      'https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54',
+      'https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white',
+    ],
+    links: [
+      {
+        src: 'https://github.com/VatanakChamroeun/disease_symptom_prediction',
+        title: 'GitHub',
+      },
+      {
+        src: 'https://disease-symptom-predicti-661ab.web.app/#/',
+        title: 'Website',
+      },
+    ],
+    projectImages: [
+      // 'https://user-images.githubusercontent.com/64341213/134033029-1147e609-8687-491d-8484-3e6b32844e20.png',
+      // 'https://user-images.githubusercontent.com/64341213/134033317-50cf1d65-fa4a-4477-8dd5-a0d5ab4c4d83.png',
+    ],
+  },
+  {
     title: 'Cambodia Geography',
     content:
       'Cambodia Geography is a cross-platform mobile app which is used to explore tour places, restuarants and geography in Cambodia. I contributed with 4 other friends and I worked on developing mobile UI and integrating app to API.',
