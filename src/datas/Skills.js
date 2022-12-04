@@ -19,7 +19,7 @@ export const skillsData = [
   },
   {
     icon: 'FaCss3Alt',
-    text: 'Css',
+    text: 'CSS',
     size: '20',
     color: '#1572B6',
   },
@@ -36,9 +36,21 @@ export const skillsData = [
   //   color: '#787CB5',
   // },
   {
-    icon: 'FaLaravel',
-    text: 'Laravel',
+    icon: 'FaPython',
+    text: 'Python',
     size: '20',
-    color: '#FF2D20',
+    color: '#2f6694',
+  },
+  {
+    icon: 'FaJupyterNotebook',
+    text: 'Jupyter Notebook',
+    size: '20',
+    color: '#1572B6',
+  },
+  {
+    icon: 'FaGithub',
+    text: 'Github',
+    size: '20',
+    color: '#000000',
   },
 ]

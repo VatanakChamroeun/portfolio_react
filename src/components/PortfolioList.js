@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Portfolio from './Portfolio'
-import { portfolioDatas } from '../datas/Portfolio'
+import { developmentPortfolio, researchPortfolio } from '../datas/Portfolio'
 import { fadeIn } from '../animations'
 import { motion } from 'framer-motion'
 const PortfolioList = ({ portfolioSection, isDarkMode }) => {
@@ -13,7 +13,22 @@ const PortfolioList = ({ portfolioSection, isDarkMode }) => {
       animate='show'
     >
       <StyledTitle>Portfolio</StyledTitle>
-      {portfolioDatas.map((data, index) => (
+      {developmentPortfolio.map((data, index) => (
+        <Portfolio
+          key={index}
+          title={data.title}
+          subtitle={data.subtitle}
+          content={data.content}
+          technologyImages={data.technologyImages}
+          links={data.links}
+          projectImages={data.projectImages}
+          isDarkMode={isDarkMode}
+        />
+      ))}
+      <br></br>
+      <br></br>
+      <StyledTitle>Research Projects</StyledTitle>
+      {researchPortfolio.map((data, index) => (
         <Portfolio
           key={index}
           title={data.title}
