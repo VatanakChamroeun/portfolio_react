@@ -14,8 +14,8 @@ export const portfolioDatas = [
       },
     ],
     projectImages: [
-      'https://res.cloudinary.com/cadt/image/upload/v1670063473/kela/2022-12-03_17.30.53_d114nk.jpg',
-      'https://res.cloudinary.com/cadt/image/upload/v1670063474/kela/2022-12-03_17.30.48_tzopda.jpg',
+      'https://res.cloudinary.com/cadt/image/upload/v1670142221/kela/Login_wfcoj7.png',
+      'https://res.cloudinary.com/cadt/image/upload/v1670142222/kela/Homescreen_fkbrli.png',
     ],
   },
   {
